@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>BEAUTY STORE</h1>
+
+    <nav class="products-menu">
+        <ul>
+	    <li>
+                <a href="#">
+                    <img src="compact.jpg" alt="Product 1">
+                    <span>Compact<br> Rs.250<br>Water proof</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="blush.jpg" alt="Product 1">
+                    <span>Blush<br> Rs.200<br>Water proof</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="eyeshadow.jpg" alt="Product 2">
+                    <span>EyeShadow<br>Rs.400<br>Water proof</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="kajal.jpg" alt="Product 3">
+                    <span>Kajal<br>Rs.100<br>Long Lasted</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="toner.jpeg" alt="Product 3">
+                    <span>Product 3</span>
+                </a>
+            </li>
+	    <li>
+                <a href="#">
+                    <img src="nailpolish.jpeg" alt="Product 3">
+                    <span>Product 3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="brush.jpeg" alt="Product 3">
+                    <span>Brush<br>Rs.500<br>Reusable</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="products-menu">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="bronzer.jpeg" alt="Product 3">
+                    <span>Brush<br>Rs.500<br>Reusable</span>
+                </a>
+            </li>
+	    <li>
+                <a href="#">
+                    <img src="foundation.jpg" alt="Product 1">
+                    <span>Foundation<br> Rs.400<br>Water proof</span>
+                </a>
+            </li>
+	    <li>
+                <a href="#">
+                    <img src="blender.jpg" alt="Product 3">
+                    <span>Blender<br>Rs.30<br>Washable</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="highlighter.jpeg" alt="Product 1">
+                    <span>Highlighter</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="sunscreen.jpeg" alt="Product 3">
+                    <span>Brush<br>Rs.500<br>Reusable</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="mascara.jpg" alt="Product 2">
+                    <span>Product 2</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="products-menu">
+        <ul>
+            <li>
+                <a href="#">
+                    <img src="concealer.jpeg" alt="Product 1">
+                    <span>Product 1</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="lipstick.jpg" alt="Product 2">
+                    <span>Product 2</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="eyeliner.jpeg" alt="Product 3">
+                    <span>Product 3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="primer.jpeg" alt="Product 3">
+                    <span>Product 3</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="contour.jpg" alt="Product 3">
+                    <span>Brush<br>Rs.500<br>Reusable</span>
+                </a>
+            </li>
+	   <li>
+                <a href="#">
+                    <img src="lipgloss.jpeg" alt="Product 3">
+                    <span>Product 3</span>
+                </a>
+            </li>
+	    <li>
+                <a href="#">
+                    <img src="serum.jpg" alt="Product 1">
+                    <span>Blush<br> Rs.250<br>Water proof</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    
+<style> 
+    h1{
+	text-align:center;
+     }
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+    }
+    
+    
+    /* Products Menu */
+    .products-menu {
+	background-color:purple;
+        
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .products-menu ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    
+    .products-menu li {
+        background: white;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+    
+    .products-menu li:hover {
+        transform: scale(1.05);
+    }
+    
+    .products-menu a {
+        text-decoration: none;
+        color: #333;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .products-menu img {
+        width: 100px;
+        height: 100px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+    }
+    
+</style>
+</body>
+</html>

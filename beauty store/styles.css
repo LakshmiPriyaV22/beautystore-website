@@ -1,0 +1,188 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #fff0f5, #ffe4e1);
+    color: #333;
+    padding-bottom: 40px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #b30059;
+}
+
+h2 {
+    font-size: 1.8rem;
+    margin: 20px;
+    color: #800040;
+    text-align: center;
+}
+
+input[type="submit"], input[type="button"], button {
+    font-size: 1rem;
+    background: #ff69b4;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-bottom: 5%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+    background: #c2185b;
+    transform: scale(1.05);
+}
+
+/* Product Section Base Style */
+.products-menu {
+    background: #f9e6f0;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+/* Product List */
+.products-menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+/* Product Card */
+.products-menu li {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    width: 220px;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.products-menu li:hover {
+    transform: scale(1.05);
+}
+
+.products-menu img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.products-menu span {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Section Background Themes */
+.maybeline { background: linear-gradient(to bottom right, #ffc1e3, #f7d3f7); }
+.mac { background: linear-gradient(to bottom right, #ffc8dd, #ffe0f0); }
+.lor { background: linear-gradient(to bottom right, #fce4ec, #f8bbd0); }
+
+.logo img {
+    width: 300px;       /* Slightly larger width */
+    max-height: 150px;  /* Slightly larger height */
+    padding: 0;
+    display: block;
+    margin: 20px auto;  /* Centers the logo */
+}
+.logout-button {
+    padding: 12px 28px;
+    background: linear-gradient(135deg, #ff4d6d, #ff6b81);
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 6px 15px rgba(255, 105, 135, 0.3);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  .logout-button:hover {
+    background: linear-gradient(135deg, #ff1e50, #ff5e78);
+    box-shadow: 0 8px 20px rgba(255, 105, 135, 0.4);
+    transform: scale(1.05);
+  }
+  .logout-button:hover {
+    background-color: #ff3366;
+    box-shadow: 0 4px 12px rgba(255, 105, 135, 0.3);
+    transform: scale(1.05);
+}
+.top-bar {
+    position: sticky;
+    top: 0;
+    background-color: #fff0f5;
+    z-index: 100;
+}
+  
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .products-menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .products-menu li {
+        width: 90%;
+    }
+
+    h1, h2 {
+        text-align: center;
+        margin: 15px auto;
+    }
+
+    input {
+        margin: 10px auto;
+        display: block;
+    }
+}
+.search-container {
+    text-align: center;
+    margin: 15px auto;
+}
+
+.search-box {
+    width: 80%;
+    max-width: 500px;
+    padding: 10px 15px 10px 40px;
+    font-size: 16px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    background-image: url('https://cdn-icons-png.flaticon.com/512/622/622669.png');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 12px center;
+    background-color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .search-box {
+        width: 90%;
+    }
+}
