@@ -21,6 +21,6 @@ An elegant and responsive online beauty store built using PHP and MySQL.
 
 ## 🔗 Live Demo
 
-[Click here to view the live site](https://glowshop.infinityfree-url.com) *(replace with your real URL)*
+[Click here to view the live site](https://glowshop.infinityfreeapp.com) 
 
 
