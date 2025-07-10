@@ -1,4 +1,4 @@
-# beautystore-website
+
 # 💄 Beauty Product Purchase Website
 
 An elegant and responsive online beauty store built using PHP and MySQL.
